@@ -26,7 +26,7 @@ import com.book.service.BooksService;
 
 import lombok.extern.slf4j.Slf4j;
 
-@CrossOrigin(origins = { "http://localhost:3000","http://chayan9231.github.io"})
+@CrossOrigin(origins = { "http://localhost:3000","http://Chayan9231.github.io/BookReactApplication"})
 @Slf4j
 @RestController
 @RequestMapping(value = "/book", produces = "application/hal+json")
